@@ -1,0 +1,136 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary{
+	background-color: #fff;
+  border-radius: 0;
+  border: .05rem solid #fff;
+  color: #333;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #f4f5f7;
+  border: .05rem solid #fff;
+  color: #333;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #080808;
+  background: #fff;
+  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
+}
+
+.cover-container {
+  text-align: center;
+  width: 100%;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 1em;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 100;
+  color: rgba(0, 0, 0, .8);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(0, 0, 0, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #080808;
+  border-bottom-color: #080808;
+}
+
+.lead{
+	margin-top: 2rem;
+}
+
+@media (min-width: 48em) {
+  body{
+    background: url("bg_v2.jpg") center center fixed;
+    background-size: cover;
+  }
+
+  .masthead-brand {
+	float: left;
+  color: #080808;
+  margin-bottom: 0;  
+  }
+
+  .nav-masthead {
+    float: right;
+  }
+
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot, .mastfoot a{
+  color: rgba(0, 0, 0, .8);
+}
+
+.copy-right{ 
+  font-size: 14px; 
+}
+.mastfoot a{font-weight: 600}
