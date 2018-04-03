@@ -133,4 +133,6 @@ body {
 .copy-right{ 
   font-size: 14px; 
 }
+.f-left{float: left;}
+.f-right{float: right;}
 .mastfoot a{font-weight: 600}
